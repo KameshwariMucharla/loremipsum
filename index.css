@@ -1,0 +1,171 @@
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.nav-item {
+    margin-left: 8px;
+    font-family: "Bree Serif";
+    font-size: 16px;
+}
+
+.top-section {
+    background-image: linear-gradient(to right, #fb5fc8, #ef819f, #e1dc26);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height: 60vh;
+    width: 100%;
+
+}
+
+.icon-container {
+    margin-top: 18px;
+}
+
+.banner-section {
+    background-image: url("https://res.cloudinary.com/dfgc7y56h/image/upload/v1683182656/img1_abhjw7.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50vh;
+    width: 100%;
+}
+
+.mini-card {
+    width: 50%;
+    background-color: #bf1b3b;
+    background: rgb(213, 64, 104, 0.5);
+    margin-left: 20px;
+    padding: 10px;
+}
+
+
+.heading {
+    color: #ffffff;
+    font-family: "Roboto";
+
+}
+
+.description {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width:576px) {
+    .mini-card {
+        padding: 6px;
+    }
+
+    .heading {
+        font-size: 15px;
+    }
+
+    .description {
+        font-size: 11px;
+    }
+}
+
+.bottom-section {
+    background-image: linear-gradient(to right, #fb5fc8, #ef819f, #e1dc26);
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.order-now-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 27px;
+}
+
+.food-item-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.food-img {
+    height: 200px;
+    width: 250px;
+    border-top-right-radius: 60px;
+}
+
+.food-card {
+    background-color: #ffffff;
+    height: 350px;
+    width: 250px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.food-name {
+    color: #050505;
+    font-size: 25px;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+
+.details {
+    color: #050505;
+    font-size: 15px;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    .order-now-heading {
+        font-size: 22px;
+    }
+
+    .food-item-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-name {
+        font-size: 20px;
+    }
+
+    .details {
+        font-size: 12px;
+    }
+
+    .food-card {
+        margin-bottom: 10px;
+        height: 250px;
+        width: 200px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+
+    .food-img {
+        height: 150px;
+        width: 200px;
+        border-top-right-radius: 50px;
+    }
+}
+
+.order-now-btn-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.order-now-btn {
+    background:
+        rgb(255, 255, 255, 0.7);
+    padding: 7px;
+    width: 120px;
+    height: 45px;
+    border-width: 0px;
+    border-radius: 9px;
+
+}
